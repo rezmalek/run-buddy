@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Helvetica, Arial, sans-serif;  
     color: #39a6b2;  
@@ -41,30 +42,6 @@ nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-}
-
-/* footer */
-
-footer {
-    background-color: #fce138;
-    padding: 35px 35px;
-}
-
-footer h2 {
-    color: #39a6b2;
-    display: inline;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
 }
 
 /* hero */
@@ -154,7 +131,7 @@ form button {
 .steps {
     text-align: center;
     background-color: #fce138;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
 }
 
 .secondary-border {
@@ -190,7 +167,7 @@ form button {
 
 #trainers {
    text-align: center;
-   margin-bottom: 50PX;
+   padding-bottom: 30PX;
 }
 
 .trainer {
@@ -234,6 +211,7 @@ form button {
 #reach-out {
     text-align: center;
     background-color: #024e76;
+    padding-bottom: 50px;
 }
 
 #reach-out h2 {
@@ -263,4 +241,28 @@ form button {
 
 .contact-info a { 
     color: #fce138;
+}
+
+/* footer */
+
+footer {
+    background-color: #fce138;
+    padding: 35px 35px;
+}
+
+footer h2 {
+    color: #39a6b2;
+    display: inline;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
 }
