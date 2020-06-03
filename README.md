@@ -1,4 +1,4 @@
-Run Buddy 
+# Run Buddy
 
 https://rezmalek.github.io/run-buddy/
 
