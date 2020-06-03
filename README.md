@@ -2,5 +2,5 @@
 
 https://rezmalek.github.io/run-buddy/
 
-Built With HTML & CSS
+Built with HTML & CSS
 
