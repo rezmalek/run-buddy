@@ -13,4 +13,4 @@ https://rezmalek.github.io/run-buddy/
 ## Contribution
 Made by Reza Malek
 
-
+### ©2019 Run Buddy, Inc
