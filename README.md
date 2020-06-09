@@ -1,7 +1,7 @@
 # Run Buddy
 
 ## Purpose
-A website that offers fintness training. 
+A website that helps you stay healthy and fit.  
 
 ## Built With
 - HTML
