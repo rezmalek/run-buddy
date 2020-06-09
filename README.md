@@ -1,6 +1,17 @@
 # Run Buddy
 
+## Purpose
+A website that offers fintness training. 
+
+## Built With
+- HTML
+- CSS
+
+## Website 
 https://rezmalek.github.io/run-buddy/
 
-Built with HTML & CSS
+
+## Contribution
+Made by Reza Malek
+
 
