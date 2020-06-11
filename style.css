@@ -35,7 +35,7 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul {
+.navigation ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -43,7 +43,7 @@ header nav ul {
     list-style: none;
 }
 
-nav ul li a {
+.navigation a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
@@ -120,16 +120,17 @@ form button {
 
 /* whet we do */
 
-.intro {
-    text-align: center;
+.flex-row {
+    display: flex;
 }
 
 .section-title {
-    display: inline-block;
     color: #024e76;
     font-size: 55px;
-    margin: 45px 0;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 25px auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -137,6 +138,7 @@ form button {
 }
 
 .intro p { 
+    text-align: center;
     line-height: 1.7; 
     color: #39a6b2; 
     width: 75%; 
@@ -148,44 +150,66 @@ form button {
 /* what you do */
 
 .steps {
-    text-align: center;
     background-color: #fce138;
     padding-bottom: 1px;
+}
+
+.step {
+    margin: 50px auto; 
+    padding-bottom: 50px;
+    width: 70%;
+    border-bottom: 1px solid #39a6b2; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
 }
 
 .secondary-border {
     border-bottom: 3px solid #39a6b2; 
 }
 
-.steps div {
-    margin-bottom: 80px;
-}
-
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
+.step h3 {
     color: #024e76; 
-    font-size: 46px; 
-    margin-top: 10px;
-    margin-bottom: 5px;
+    font-size: 43px; 
+    flex: 1 40%;
+    padding-left: 10vw;
 }
 
-.steps span { 
-    font-size: 38px;
+.step-info {
+    flex: 2 60%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.steps p {
+.step-text h4 { 
+    font-size: 26px; 
+    line-height: 1.5; 
+    color: #024e76;
+}
+
+.step-tex p {
     color: #39a6b2; 
-    font-size: 23px;
+    font-size: 18px;
+}
+
+.step-text { 
+    flex: 12;
+}
+
+.step-img {
+    flex: 1 12%; 
+    margin-right: 20px;
+}
+
+.step-img img { 
+    max-width: 100%;
 }
 
 /* meet the trainers */
 
 #trainers {
-   text-align: center;
    padding-bottom: 30PX;
 }
 
@@ -194,19 +218,15 @@ form button {
     margin: 0 auto 30px auto; 
     background: #024e76; 
     color: #fce138;
-    overflow: auto;
 }
 
 .trainer img { 
     width: 35%; 
-    float: left;
 }
 
 .trainer-bio { 
     padding: 35px; 
-    float: left; 
     width: 65%;
-    text-align: justify;
 }
 
 .trainer-bio h3 { 
@@ -228,7 +248,6 @@ form button {
 /* reach out */
 
 #reach-out {
-    text-align: center;
     background-color: #024e76;
     padding-bottom: 50px;
 }
@@ -241,7 +260,6 @@ form button {
     width: 410px;
     display: inline-block; 
     vertical-align: top; 
-    text-align: left; 
     margin: 30px 0 0 60px; 
     color: white;
 }
