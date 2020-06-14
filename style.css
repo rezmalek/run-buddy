@@ -234,7 +234,6 @@ form button:hover {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around;
-    
 }
 
 .trainer {
@@ -243,12 +242,19 @@ form button:hover {
     color: #fce138;
     flex: 1;
     border-radius: 12px;
+    transition: color .5s;
+    transition: background .5s;
 }
 
 .trainer img { 
     width: 100%; 
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+}
+
+.trainer:hover {
+    color: #024e76; 
+    background: #fce138;
 }
 
 .trainer-bio { 
